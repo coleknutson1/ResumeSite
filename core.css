@@ -2,46 +2,16 @@ head {
 	display:none;
 }
 
-body {
-    font-family: Vollkorn,serif;
-    line-height: 1.7;
-    word-break: break-word;
-    background-color: #F2F2F2;
-}
-
-#header{
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(red, yellow, green); /* Standard syntax */
-    height:75px;
-    width: 100%;
-    border-radius: 25px;
-}
-
 #header .column{
     width: 15%;
     height:100%;
 }
 
-@media screen and (min-width: 480px) {
-    body {
-        background: blue; /* For browsers that do not support gradients */
-    }
-}
-
-@media screen{
-.container {
-    margin: 0 auto;
-    width: 85%;
-    min-width: 15em;
-    max-width: 68.5em;
-}
+#title-banner{
+    height: 10%;
 }
 
 #top-banner{
-    background: red;
     height: 10%;
     margin: 0;
     padding: 0;
@@ -50,7 +20,7 @@ body {
 }
 
 #top-banner .banner-column{
-    width: 25%;
+    width: 50%;
     background: #E91E63;
     border-radius: inherit;
     height: 100%;
@@ -59,8 +29,21 @@ body {
     font-style: italic;
     font-family: sans-serif;
     font-size: xx-large;
+    line-height: 1.7;   
+    box-shadow: rgba(0, 0, 0, 0.74902) 10px 10px 5px 0px;
 }
 
 #top-banner .banner-column:hover {
     background: purple !important;
+}
+
+#title-banner{
+    height:10%;
+    background: rgba(0, 0, 255, 0.45);
+    margin-bottom:1em;
+}
+
+#top-banner #banner-resume {
+    margin-left: -3rem;
+    background: red;
 }

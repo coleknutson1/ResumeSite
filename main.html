@@ -1,5 +1,4 @@
 <!DOCTYPE: html>
-<!-- learned from http://joshuajohnson.co.uk/ --> 
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -7,20 +6,25 @@
 		<title>Cole Knutson - Front End Developer</title>
 		<script type="text/javascipt">
 				<!--Javascript in here -->
-		</script>	
+		</script>
+		<script src="knockout-3.4.0.js">	
+		</script>
 		<header class="head" id="top">
 		</header>
 		<body>
+			<input type="text" />
 			<div id="title-banner">
 				Cole Knutson
 			</div>
 			<div id="top-banner">
-				<div id="banner-myself" class="banner-column">
+				<div id="banner-myself" class="banner-column" data-bind="click: function(){ alert('Hey');}">
 					Myself
 				</div>
 				<div id="banner-resume" class="banner-column">
 					Resume
 				</div>
+			</div>
+			<div id="center-pane">
 			</div>
 		</body>
 	</head>

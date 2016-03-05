@@ -2,6 +2,10 @@ head {
 	display:none;
 }
 
+body{
+    background:cornsilk;
+}
+
 #header .column{
     width: 15%;
     height:100%;
@@ -9,6 +13,11 @@ head {
 
 #title-banner{
     height: 10%;
+    line-height: 1.7;   
+    font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+    background: rgba(0, 0, 255, 0.45);
+    margin-bottom:1em;
+    text-align: center;
 }
 
 #top-banner{
@@ -37,13 +46,15 @@ head {
     background: purple !important;
 }
 
-#title-banner{
-    height:10%;
-    background: rgba(0, 0, 255, 0.45);
-    margin-bottom:1em;
-}
+
 
 #top-banner #banner-resume {
     margin-left: -3rem;
     background: red;
+}
+
+#center-pane{
+    background: grey;
+    height: 100%;
+    width: 100%;
 }

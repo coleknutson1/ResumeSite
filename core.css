@@ -4,27 +4,44 @@ body{
 
 #header-container{
     display: flex;
-    padding-top:1em;
     background-color: rgba(68, 62, 62, 0.5);
+	height: 150px;
 }
 
-.banner {
-    width: 30%;
-    height: 100px;
-    border-radius: 25px;
-    cursor: pointer;
-    margin: .5em;
-    flex-grow: 1;
-    text-align: center;
-    font-family: serif;
-    font-style: italic;
-    font-weight: 600;
-    font-size: -webkit-xxx-large;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.banner{	
+	cursor: pointer;
+	margin: .5em;
+	flex-grow: 1;
+	text-align: center;
+	font-family: serif;
+	font-style: italic;	
 }
+@media only screen and (min-width:755px)
+{
+	.banner {
+	    width: 30%;
+	    height: 100px;
+    	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+		border-radius: 25px;
+		font-weight: 600;
+		font-size: -webkit-xxx-large;}
+	}
 
+	#header-container{
+	    padding-top:1em;
+	}
+}
+@media only screen and (max-width:755px)
+{
+	.banner{
+		width:33% !important;
+		height:100% !important;
+		margin:0 !important;
+		font-weight: 100;
+	}
+}
 #home{
     background: rgba(232, 130, 130, 0.5);
 }

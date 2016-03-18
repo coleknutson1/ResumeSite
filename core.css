@@ -1,0 +1,57 @@
+body{
+	margin:0;
+}
+
+#header-container{
+    display: flex;
+    padding-top:1em;
+    background-color: rgba(68, 62, 62, 0.5);
+}
+
+.banner {
+    width: 30%;
+    height: 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: .5em;
+    flex-grow: 1;
+    text-align: center;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: -webkit-xxx-large;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#home{
+    background: rgba(232, 130, 130, 0.5);
+}
+
+#about-me{
+	background: rgba(195, 164, 164, 0.5);
+}
+
+#resume{
+	background: rgba(144, 146, 220, 0.74);
+}	
+
+#home:hover{
+    background: rgba(232, 130, 130, .85);
+}
+
+#about-me:hover{
+	background: rgba(195, 164, 164, 0.85);
+}
+
+#resume:hover{
+	background: rgba(144, 146, 220, 0.85);
+}	
+
+#left-panel-container{
+    height: 100%;
+    width: 25%;
+    background-color: rgba(224, 216, 216, 0.69);
+    position: absolute;
+}
